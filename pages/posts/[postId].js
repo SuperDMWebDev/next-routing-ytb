@@ -1,3 +1,5 @@
+//getStaticPaths di rieng
+// getStaticProps->Post
 export default function Post({post}){
 
     return(

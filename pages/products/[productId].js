@@ -38,7 +38,7 @@ export async function getStaticPaths(){
             //     params:{ productId:'3'}
             //  }
         ],
-        fallback:true
+        fallback:true 
     }
     // //Cach 2 dung khi so luong phan tu nhieu 
     // const response= await fetch('https://jsonplaceholder.typicode.com/posts');
@@ -61,6 +61,7 @@ export async function getStaticProps(context){
     return {
         props:{
             product:data
-        }
+        },
+        validate:1
     }
 }
